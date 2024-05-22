@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+:root{
+    --clr: black;
+}
+#yourtube{
+    height: 100px;
+    cursor: pointer;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f7f7f7;
+}
+.navigation{
+    position: relative;
+    width: 1917px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.navigation ul{
+    display: flex;
+    width: 350px;
+}
+.navigation ul li{
+    position: relative;
+    list-style: none;
+margin-left: 20px;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    color: #000000;
+    
+}
+.navigation ul li:hover a .icon{
+    color: #5c5c5c;
+    border-radius: 50%;
+    border-color: #000000;
+}
+img{
+    height: 120px;
+    padding: 30px;
+}
+.flex-dev{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 20px;
+    border-radius: 25px;
+    
+}
+.search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.sidebar{
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+    
+}
+.sidebar a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shortcut-links a ion-icons{
+    width: 40px;
+    margin-right: 40px;
+    
+    
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.options a ion-icons{
+    width: 40px;
+    margin-right: 40px;
+    padding: 17px;
+    
+}
+.options a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+    padding-bottom: 2px;
+}
+.subscribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subscribed-list h5{
+    font-size: 12px;
+    margin: 20px 0;
+    color: #5a5a5a;
+    align-items:baseline;
+}
+.more-youtube h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.more-youtube h5{
+    font-size: 12px;
+    margin: 20px 0;
+    color: #5a5a5a;
+    align-items:baseline;
+}
+.more-youtube h5:hover{
+    cursor: pointer;
+}
+.home{
+    color: #5a0972;
+    background-color: #bebebe;
+    padding: 7px;
+    border-radius: 10px;
+}
+.shortcut-links .explore:hover{
+    color: #5a5a5a;
+}
+.shortcut-links .history:hover{
+    color: #5a5a5a;
+}
+.shortcut-links .subscriptions:hover{
+    color: #5a5a5a;
+}
+.shortcut-links .library:hover{
+    color: #5a5a5a;
+}
+.shortcut-links .playlists:hover{
+    color: #5a5a5a;
+}
+.options .settings:hover{
+    color: #5a5a5a;
+}
+.options .report:hover{
+    color: #5a5a5a;
+}
+.options .help:hover{
+    color: #5a5a5a;
+}
+.options .feedback:hover{
+    color: #5a5a5a;
+}
+.search-icon:hover{
+    color: #5a5a5a;
+    cursor: pointer;
+}
+.wrong{
+    justify-content: center;
+    align-items: center;
+    padding-left: 940px;
+    height: 150px;
+}
